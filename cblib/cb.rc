@@ -1,0 +1,20 @@
+appicon ICON "banner.ico"
+1 MANIFEST "manifest.xml"
+pecbmenu MENU
+BEGIN
+	POPUP "File"
+	BEGIN
+		MENUITEM "&Open\tCtrl+o",1200h
+		MENUITEM "&Save\tCtrl+s",1201h
+		MENUITEM "E&xit\tCtrl+q",1202h
+	END
+	MENUITEM "About",1203h
+END
+
+pecbacc ACCELERATORS
+BEGIN
+	"^O",1200h
+	"^S",1201h
+	"^Q",1202h
+	"^B",1205h
+END
